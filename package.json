@@ -57,6 +57,7 @@
   "scripts": {
     "bench": "node test/bench.mjs && deno -A test/bench.mjs && bun --bun test/bench.mjs",
     "build": "pnpm clean && pnpm rspack",
+    "build:rolldown": "pnpm clean && pnpm rolldown -c rolldown.config.mjs",
     "clean": "rm -rf dist",
     "dev": "pnpm clean && pnpm rspack --watch",
     "jiti": "JITI_DEBUG=1 JITI_JSX=1 lib/jiti-cli.mjs",
@@ -129,6 +130,7 @@
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "reflect-metadata": "^0.2.2",
+    "rolldown": "1.0.0-rc.18",
     "solid-js": "^1.9.12",
     "std-env": "^4.1.0",
     "terser-webpack-plugin": "^5.5.0",
