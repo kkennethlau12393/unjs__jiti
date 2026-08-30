@@ -9,6 +9,5 @@ export default unjs({
     "@typescript-eslint/no-require-imports": 0,
     "unicorn/require-module-specifiers": 0,
     "unicorn/prefer-class-fields": 0,
-    "no-empty": 0
   },
 });
